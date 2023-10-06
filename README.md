@@ -1,0 +1,4 @@
+- El portafolio que elegi para este trabajo practico es el siguiente: https://www.behance.net/gallery/175440191/Personal-Portfolio-WordPress-Website-Web-Design?tracking_source=search_projects|personal+portfolio
+- La consinga fue que los portafolios sean iguales en detalles y formato (menos la tipografia e imagenes que queda a elección personal).
+- Lo que cambia es la información ya que esta basado en mi experincia y estuidos sobre el desarrollo web.
+- El proyecto lo realice en React-Vite, poniendo un componente para cada sección del mismo.
