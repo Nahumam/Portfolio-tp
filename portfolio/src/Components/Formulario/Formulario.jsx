@@ -7,11 +7,11 @@ const Formulario = () => {
             <h2>Contácteme,</h2>
             <h2>Pongámonos a trabajar.</h2>
             <div className='form-card'>
-            <form action="">
-                <input type="text" name='text' placeholder='Tu Nombre'/>
-                <input type="email" name='email' placeholder='Tu Email' />
-                <input type="text" name='asunto' placeholder='Asunto'/>
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder='Escribe un mensaje'></textarea>
+            <form target="_blank" action="https://formsubmit.co/nahummonsalve@gmail.com" method="POST">
+                <input type="text" name='text' placeholder='Tu Nombre' required/>
+                <input type="email" name='email' placeholder='Tu Email' required/>
+                <input type="text" name='asunto' placeholder='Asunto'required/>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder='Escribe un mensaje' required></textarea>
                 {/* <input type="submit" value='ENVIAR' /> */}
                 <button className='form-btn' type="submit">ENVIAR</button>
             </form>
