@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-color: #efdfd2;
+    --color-img: orangered;
+    --h1-font-size: 50px;
+    --h2-font-size: 35px;
+    --h3-font-size: 30px;
+
+}

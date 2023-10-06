@@ -1,0 +1,127 @@
+.habilidades{
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 130px 60px 80px 60px;
+    height: 100%;
+}
+
+.left-section > h2{
+    margin-bottom: 40px;
+    font-size: var(--h2-font-size);
+}
+
+.left-card>p{
+    padding-left: 10px;
+    width: 500px;
+}
+
+.left-section > .hab-cards{
+    font-size: var(--h3-font-size);
+    margin-bottom: 20px;
+}
+
+.cards-left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.cards-left > div{
+    padding: 10px;
+    margin: 10px;
+    background-color: #f4eae1;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.cards-left>div>p{
+    margin-top: 10px;
+}
+
+.right-section>.hab-cards{
+        font-size: var(--h3-font-size);
+        margin-bottom: 70px;
+}
+
+.lista-experiencia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 10px 30px 30px 30px;
+    margin-bottom: 30px;
+}
+
+.years{
+    background-color: white;
+    padding: 10px;
+    font-size: smaller;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 35%;
+}
+
+.cursos{
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+
+.cursos>span{
+    display: flex;
+    justify-content: center;
+}
+
+.silicon{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.right-section>hr{
+    height: 1px;
+}
+
+@media (max-width: 1050px){
+    .habilidades{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-section{
+        padding-bottom: 50px;
+        width: 500px;
+    }
+    .left-card{
+        margin-bottom: 50px;
+    }
+    .right-section{
+        width: 500px;
+    }
+}
+
+@media (max-width: 375px){
+    .left-section{
+        width: 100%;
+    }
+    .cards-left{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .right-section{
+        width: 100%;
+    }
+    .lista-experiencia{
+        width: auto;
+        padding: 0px;
+    }
+    .years,.cursos,.silicon{
+        padding: 10px;
+    }
+    .cursos{
+        font-size: smaller;
+    }
+}

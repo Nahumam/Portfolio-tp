@@ -1,0 +1,78 @@
+header{
+background-color: white;
+padding: 50px;
+display: flex;
+justify-content: space-evenly;
+padding-left: 400px;
+font-size: smaller;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 100%;
+position: fixed;
+}
+
+nav > a{
+padding: 10px;
+text-decoration: none;
+color: black;
+}
+
+nav>a:hover{
+    background-color: black;
+    color: white;
+}
+
+.dropdown-menu{
+    display: inline-block;
+    height: 100%;
+    clear: both;
+}
+
+.gp-icon svg {
+    top: 3.125px;
+    position: relative;
+    fill: gray;
+}
+
+.talk{
+    padding-left: 200px;
+    color: black;
+    text-decoration-color: var(--color-img);
+}
+
+.talk:hover{
+    text-decoration:none;
+    color: var(--color-img);
+}
+
+@media (max-width: 1130px){
+    header{
+        padding-left: 10px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 780px) {
+    header{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    nav{
+        padding-bottom: 10px;
+    }
+    .talk{
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    header{
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header{
+        flex-direction: column;
+    }
+}

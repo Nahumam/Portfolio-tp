@@ -1,0 +1,68 @@
+.trabajos{
+    background-color: #f4eae1;
+    padding: 130px 60px 80px 60px;
+}
+
+.line{
+    float: right;
+    width: 60%;
+    background-color: var(--main-color);
+}
+
+.tittle-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tittle-line>h2{
+    font-size: var(--h2-font-size);
+}
+
+.img-cards>img{
+    width: 40%;
+    padding: 10px;
+}
+
+.img-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.all-work{
+    width: 220px;
+    background-color: var(--color-img);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.all-work>a{
+    text-decoration: none;
+    color: white;
+}
+
+.all-work>a>img{
+    margin-right: 10px;
+}
+
+.conteiner-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 1050px) {
+    .img-cards>img{
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .img-cards>img{
+        width: 100%;
+    }
+}

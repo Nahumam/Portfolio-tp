@@ -1,0 +1,112 @@
+.servicios{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 130px 60px 80px 60px;
+}
+
+.left-serv > circular-text{
+font-size: xx-small;
+}
+
+.left-serv > h2{
+    margin-bottom: 40px;
+    font-size: var(--h2-font-size);
+}
+
+.left-card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.left-card > p{
+    padding-left: 10px;
+}
+
+hr{
+    border: none; 
+    height: 2px; 
+    color: black; 
+    background-color: black;
+}
+
+.lista-serv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 10px 30px 30px 30px;
+    margin-bottom: 30px;
+}
+
+.numero{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.lenguaje{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.lista-serv > a{
+    display: grid;
+    text-decoration: none;
+    font-size: small;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 1050px){
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    circular-text{
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .servicios{
+        align-content: baseline;
+    }
+    .lista-serv{
+        width: 500px;
+    }
+    .servicios>section>hr{
+        width: 480px;
+    }
+}
+
+@media (max-width: 500px) {
+    .servicios>section>hr{
+        width: 80%;
+    }
+    .lista-serv{
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    .servicios{
+        align-items: center;
+    }
+    .left-serv{
+        width: 170px;
+    }
+    .servicios>section>hr{
+        width: 300px;
+    }
+    .lista-serv{
+        width: 300px;
+    }
+    .lenguaje{
+        font-size: 20px;
+    }
+}
